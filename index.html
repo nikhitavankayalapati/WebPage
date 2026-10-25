@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas & Color - Art Gallery & Store</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #fff5f5, #f0f7ff, #fcf0ff); color: #333333;">
+
+    <!-- Navigation Header -->
+    <div style="background: linear-gradient(90deg, #ff4e50, #f9d423, #6a11cb, #2575fc); padding: 25px 20px; text-align: center; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);">
+        <h1 style="margin: 0; color: #ffffff; font-size: 38px; text-transform: uppercase; letter-spacing: 3px; text-shadow: 2px 2px 5px rgba(0,0,0,0.4);">
+            🎨 Canvas & Color Studios
+        </h1>
+        <p style="margin: 8px 0 18px 0; color: #fff8e7; font-size: 18px; font-style: italic;">
+            Original Handmade Paintings, Masterpieces & Timeless Art
+        </p>
+        
+        <div style="background-color: rgba(255, 255, 255, 0.25); display: inline-block; padding: 10px 25px; border-radius: 30px; backdrop-filter: blur(5px);">
+            <a href="#gallery" style="color: #ffffff; text-decoration: none; font-weight: bold; margin: 0 15px; font-size: 16px;">Gallery</a>
+            <span style="color: #ffffff;">|</span>
+            <a href="#studio-tour" style="color: #ffffff; text-decoration: none; font-weight: bold; margin: 0 15px; font-size: 16px;">Studio Video</a>
+            <span style="color: #ffffff;">|</span>
+            <a href="#about" style="color: #ffffff; text-decoration: none; font-weight: bold; margin: 0 15px; font-size: 16px;">About Artist</a>
+        </div>
+    </div>
+
+    <!-- Promotional Banner -->
+    <div style="background-color: #ff007f; color: #ffffff; text-align: center; padding: 12px; font-weight: bold; font-size: 17px; letter-spacing: 1px;">
+        🔥 <b>FESTIVE ART SALE:</b> Flat <u>discount</u> on selected modern and classic canvas originals! Limited stock available.
+    </div>
+
+    <!-- Main Content Container -->
+    <div style="max-width: 1200px; margin: 30px auto; padding: 0 20px;">
+
+        <!-- Paintings For Sale Section -->
+        <div id="gallery">
+            <h2 style="text-align: center; color: #283593; font-size: 32px; margin-bottom: 10px;">
+                🖼️ Featured Original Paintings
+            </h2>
+            <p style="text-align: center; color: #616161; margin-bottom: 35px; font-size: 16px;">
+                Hand-painted acrylics and oils delivered straight from the easel.
+            </p>
+
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+
+                <!-- Product Card 1 -->
+                <div style="background-color: #ffffff; border-radius: 16px; overflow: hidden; width: 330px; box-shadow: 0 8px 25px rgba(255, 111, 0, 0.2); border: 2px solid #ffe082;">
+                    <img src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600" alt="Vibrant Oil Colors" style="width: 100%; height: 260px; object-fit: cover;">
+                    <div style="padding: 20px;">
+                        <span style="background-color: #e8f5e9; color: #2e7d32; padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; text-transform: uppercase;">In Stock</span>
+                        <h3 style="color: #d84315; margin: 12px 0 8px 0;">Symphony of Sunset</h3>
+                        <p style="color: #616161; font-size: 14px; line-height: 1.5;">
+                            <b>Medium:</b> Textured Oil on Canvas<br>
+                            <i>Dimensions:</i> 24" x 36"
+                        </p>
+                        <div style="margin: 15px 0;">
+                            <span style="color: #9e9e9e; font-size: 18px;"><strike>$450.00</strike></span>
+                            <span style="color: #e91e63; font-size: 26px; font-weight: bold; margin-left: 10px;">$299.00</span>
+                            <span style="color: #2e7d32; font-weight: bold; font-size: 14px; margin-left: 8px;">(33% OFF)</span>
+                        </div>
+                        <a href="mailto:orders@canvascolor.com?subject=Inquiry:%20Symphony%20of%20Sunset" style="display: block; text-align: center; background: linear-gradient(45deg, #ff416c, #ff4b2b); color: #ffffff; text-decoration: none; padding: 12px 0; border-radius: 8px; font-weight: bold; letter-spacing: 1px; box-shadow: 0 4px 10px rgba(255, 65, 108, 0.4);">
+                            Purchase Artwork
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div style="background-color: #ffffff; border-radius: 16px; overflow: hidden; width: 330px; box-shadow: 0 8px 25px rgba(33, 150, 243, 0.2); border: 2px solid #bbdefb;">
+                    <img src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600" alt="Abstract Paint Splash" style="width: 100%; height: 260px; object-fit: cover;">
+                    <div style="padding: 20px;">
+                        <span style="background-color: #ede7f6; color: #512da8; padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; text-transform: uppercase;">Best Seller</span>
+                        <h3 style="color: #1565c0; margin: 12px 0 8px 0;">Fluid Horizons</h3>
+                        <p style="color: #616161; font-size: 14px; line-height: 1.5;">
+                            <b>Medium:</b> Fluid Acrylic Pouring<br>
+                            <i>Dimensions:</i> 30" x 40"
+                        </p>
+                        <div style="margin: 15px 0;">
+                            <span style="color: #9e9e9e; font-size: 18px;"><strike>$600.00</strike></span>
+                            <span style="color: #673ab7; font-size: 26px; font-weight: bold; margin-left: 10px;">$389.00</span>
+                            <span style="color: #2e7d32; font-weight: bold; font-size: 14px; margin-left: 8px;">(35% OFF)</span>
+                        </div>
+                        <a href="mailto:orders@canvascolor.com?subject=Inquiry:%20Fluid%20Horizons" style="display: block; text-align: center; background: linear-gradient(45deg, #2193b0, #6dd5ed); color: #ffffff; text-decoration: none; padding: 12px 0; border-radius: 8px; font-weight: bold; letter-spacing: 1px; box-shadow: 0 4px 10px rgba(33, 147, 176, 0.4);">
+                            Purchase Artwork
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div style="background-color: #ffffff; border-radius: 16px; overflow: hidden; width: 330px; box-shadow: 0 8px 25px rgba(0, 150, 136, 0.2); border: 2px solid #b2dfdb;">
+                    <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600" alt="Classic Floral Expression" style="width: 100%; height: 260px; object-fit: cover;">
+                    <div style="padding: 20px;">
+                        <span style="background-color: #ffebee; color: #c62828; padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; text-transform: uppercase;">1 Left</span>
+                        <h3 style="color: #00695c; margin: 12px 0 8px 0;">Whispering Blossom</h3>
+                        <p style="color: #616161; font-size: 14px; line-height: 1.5;">
+                            <b>Medium:</b> Palette Knife Impasto<br>
+                            <i>Dimensions:</i> 20" x 20"
+                        </p>
+                        <div style="margin: 15px 0;">
+                            <span style="color: #9e9e9e; font-size: 18px;"><strike>$320.00</strike></span>
+                            <span style="color: #00897b; font-size: 26px; font-weight: bold; margin-left: 10px;">$199.00</span>
+                            <span style="color: #2e7d32; font-weight: bold; font-size: 14px; margin-left: 8px;">(38% OFF)</span>
+                        </div>
+                        <a href="mailto:orders@canvascolor.com?subject=Inquiry:%20Whispering%20Blossom" style="display: block; text-align: center; background: linear-gradient(45deg, #11998e, #38ef7d); color: #ffffff; text-decoration: none; padding: 12px 0; border-radius: 8px; font-weight: bold; letter-spacing: 1px; box-shadow: 0 4px 10px rgba(17, 153, 142, 0.4);">
+                            Purchase Artwork
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div style="background-color: #ffffff; border-radius: 16px; overflow: hidden; width: 330px; box-shadow: 0 8px 25px rgba(142, 36, 170, 0.2); border: 2px solid #e1bee7;">
+                    <img src="https://images.unsplash.com/photo-1547826039-bfc35e0f1ea8?w=600" alt="Urban Neon Abstract" style="width: 100%; height: 260px; object-fit: cover;">
+                    <div style="padding: 20px;">
+                        <span style="background-color: #f3e5f5; color: #7b1fa2; padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; text-transform: uppercase;">Trending</span>
+                        <h3 style="color: #6a1b9a; margin: 12px 0 8px 0;">Neon Mirage</h3>
+                        <p style="color: #616161; font-size: 14px; line-height: 1.5;">
+                            <b>Medium:</b> Mixed Media & Metallic Gilt<br>
+                            <i>Dimensions:</i> 28" x 28"
+                        </p>
+                        <div style="margin: 15px 0;">
+                            <span style="color: #9e9e9e; font-size: 18px;"><strike>$520.00</strike></span>
+                            <span style="color: #8e24aa; font-size: 26px; font-weight: bold; margin-left: 10px;">$349.00</span>
+                            <span style="color: #2e7d32; font-weight: bold; font-size: 14px; margin-left: 8px;">(33% OFF)</span>
+                        </div>
+                        <a href="mailto:orders@canvascolor.com?subject=Inquiry:%20Neon%20Mirage" style="display: block; text-align: center; background: linear-gradient(45deg, #b224ef, #7579ff); color: #ffffff; text-decoration: none; padding: 12px 0; border-radius: 8px; font-weight: bold; letter-spacing: 1px; box-shadow: 0 4px 10px rgba(178, 36, 239, 0.4);">
+                            Purchase Artwork
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 5 -->
+                <div style="background-color: #ffffff; border-radius: 16px; overflow: hidden; width: 330px; box-shadow: 0 8px 25px rgba(251, 140, 0, 0.2); border: 2px solid #ffe0b2;">
+                    <img src="https://images.unsplash.com/photo-1549490349-8643362247b5?w=600" alt="Coastal Waves Expression" style="width: 100%; height: 260px; object-fit: cover;">
+                    <div style="padding: 20px;">
+                        <span style="background-color: #fff3e0; color: #e65100; padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; text-transform: uppercase;">Featured</span>
+                        <h3 style="color: #ef6c00; margin: 12px 0 8px 0;">Azure Currents</h3>
+                        <p style="color: #616161; font-size: 14px; line-height: 1.5;">
+                            <b>Medium:</b> Heavy Body Acrylic<br>
+                            <i>Dimensions:</i> 24" x 48"
+                        </p>
+                        <div style="margin: 15px 0;">
+                            <span style="color: #9e9e9e; font-size: 18px;"><strike>$580.00</strike></span>
+                            <span style="color: #e65100; font-size: 26px; font-weight: bold; margin-left: 10px;">$399.00</span>
+                            <span style="color: #2e7d32; font-weight: bold; font-size: 14px; margin-left: 8px;">(31% OFF)</span>
+                        </div>
+                        <a href="mailto:orders@canvascolor.com?subject=Inquiry:%20Azure%20Currents" style="display: block; text-align: center; background: linear-gradient(45deg, #f857a6, #ff5858); color: #ffffff; text-decoration: none; padding: 12px 0; border-radius: 8px; font-weight: bold; letter-spacing: 1px; box-shadow: 0 4px 10px rgba(248, 87, 166, 0.4);">
+                            Purchase Artwork
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 6 -->
+                <div style="background-color: #ffffff; border-radius: 16px; overflow: hidden; width: 330px; box-shadow: 0 8px 25px rgba(0, 188, 212, 0.2); border: 2px solid #b2ebf2;">
+                    <img src="https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?w=600" alt="Golden Forest Pathway" style="width: 100%; height: 260px; object-fit: cover;">
+                    <div style="padding: 20px;">
+                        <span style="background-color: #e0f7fa; color: #006064; padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; text-transform: uppercase;">New Release</span>
+                        <h3 style="color: #00838f; margin: 12px 0 8px 0;">Gilded Woodland</h3>
+                        <p style="color: #616161; font-size: 14px; line-height: 1.5;">
+                            <b>Medium:</b> Oil & Gold Leaf Foil<br>
+                            <i>Dimensions:</i> 36" x 36"
+                        </p>
+                        <div style="margin: 15px 0;">
+                            <span style="color: #9e9e9e; font-size: 18px;"><strike>$690.00</strike></span>
+                            <span style="color: #0097a7; font-size: 26px; font-weight: bold; margin-left: 10px;">$459.00</span>
+                            <span style="color: #2e7d32; font-weight: bold; font-size: 14px; margin-left: 8px;">(33% OFF)</span>
+                        </div>
+                        <a href="mailto:orders@canvascolor.com?subject=Inquiry:%20Gilded%20Woodland" style="display: block; text-align: center; background: linear-gradient(45deg, #00b4db, #0083b0); color: #ffffff; text-decoration: none; padding: 12px 0; border-radius: 8px; font-weight: bold; letter-spacing: 1px; box-shadow: 0 4px 10px rgba(0, 180, 219, 0.4);">
+                            Purchase Artwork
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Video Studio Tour Section -->
+        <div id="studio-tour" style="margin-top: 60px; background: linear-gradient(135deg, #667eea, #764ba2); padding: 35px; border-radius: 20px; color: #ffffff; box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);">
+            <div style="text-align: center; margin-bottom: 25px;">
+                <h2 style="margin: 0; font-size: 30px; letter-spacing: 1px;">🎥 Behind the Easel: Painting In Motion</h2>
+                <p style="margin-top: 8px; font-size: 16px; color: #e0e7ff;">
+                    Watch the brush technique, layering, and color blending process before taking a piece home.
+                </p>
+            </div>
+
+            <div style="text-align: center;">
+                <video controls style="width: 100%; max-width: 720px; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35); border: 3px solid #ffffff;">
+                    <source src="\HTML\Media\video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <!-- Artist Profile / About Section -->
+        <div id="about" style="margin-top: 50px; background-color: #ffffff; padding: 30px; border-radius: 15px; border-top: 6px solid #e91e63; box-shadow: 0 5px 20px rgba(0,0,0,0.06);">
+            <h3 style="color: #ad1457; font-size: 24px; margin-top: 0;">About The Studio</h3>
+            <p style="line-height: 1.8; color: #424242; font-size: 16px;">
+                Welcome to <span style="font-weight: bold; color: #c2185b;">Canvas & Color</span>! Every canvas presented here is an authentic, one-of-a-kind original finished with archival-grade varnish to safeguard pigments against UV and dust. We ship securely packaged rolled canvases or ready-to-hang gallery wraps worldwide.
+            </p>
+            <p style="margin-bottom: 0;">
+                Looking for tailored color palettes to match your home interior? 
+                <a href="mailto:custom@canvascolor.com" style="color: #1976d2; font-weight: bold; text-decoration: underline;">Request a custom commissioned artwork &rarr;</a>
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div style="background-color: #212121; color: #ffffff; text-align: center; padding: 25px; margin-top: 60px;">
+        <p style="margin: 0; font-size: 15px;">
+            &copy; 2026 <b>Canvas & Color Art Marketplace</b>. Handcrafted with passion.
+        </p>
+        <p style="margin-top: 8px; font-size: 13px; color: #9e9e9e;">
+            <a href="#gallery" style="color: #ffb74d; text-decoration: none;">View Artworks</a> &bull; 
+            <a href="#studio-tour" style="color: #ffb74d; text-decoration: none;">Studio Clip</a> &bull; 
+            <a href="#about" style="color: #ffb74d; text-decoration: none;">Contact</a>
+        </p>
+    </div>
+
+</body>
+</html>
